@@ -59,7 +59,7 @@
      <pixmap resource="crapsResources.qrc">:/6</pixmap>
     </property>
    </widget>
-   <widget class="QSpinBox" name="bidSpinBoxUI">
+   <widget class="QSpinBox" name="spinBox">
     <property name="geometry">
      <rect>
       <x>310</x>
@@ -95,6 +95,32 @@
      <string>99</string>
     </property>
    </widget>
+   <widget class="QLineEdit" name="currentBankValueUI">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>10</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>1000000</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="preferencesSelectButton">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>320</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -102,7 +128,7 @@
      <x>0</x>
      <y>0</y>
      <width>674</width>
-     <height>24</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>
